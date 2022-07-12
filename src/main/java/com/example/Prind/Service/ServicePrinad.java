@@ -22,10 +22,10 @@ public class ServicePrinad {
     public Prinad readSerNum(int snum) throws IOException {
         return repositoryPrinad.getBySerialNumber(snum);
     }
-    public void updateCheck(Prinad prinad, int snum) throws IOException {
+    public void updatePrinad(Prinad prinad, int snum) throws IOException {
         repositoryPrinad.update(prinad, snum);
     }
-    public void deleteCheck(int snum) throws IOException {
+    public void deletePrinad(int snum) throws IOException {
         repositoryPrinad.deleteByPrinad(snum);
     }
 }

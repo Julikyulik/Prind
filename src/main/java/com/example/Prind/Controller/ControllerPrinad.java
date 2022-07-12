@@ -38,13 +38,13 @@ public class ControllerPrinad {
 
     @PutMapping(value = "/{snum}")
     public ResponseEntity<?> updatePrinad(@PathVariable(name = "snum") int snum, @RequestBody Prinad prinad) throws IOException {
-        servicePrinad.updateCheck(prinad, snum);
+        servicePrinad.updatePrinad(prinad, snum);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 
     @DeleteMapping(value = "/{snum}")
     public ResponseEntity<?> deletePrinad(@PathVariable(name = "snum") int snum) throws IOException {
-        servicePrinad.deleteCheck(snum);
+        servicePrinad.deletePrinad(snum);
         return new ResponseEntity<>(HttpStatus.OK);
     }
 }
