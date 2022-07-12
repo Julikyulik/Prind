@@ -1,0 +1,13 @@
+---
+- serialNum: 1
+  color: "blue"
+  thickness: 4
+  length: 5
+- serialNum: 2
+  color: "red"
+  thickness: 4
+  length: 5
+- serialNum: 4
+  color: "red"
+  thickness: 4
+  length: 5
