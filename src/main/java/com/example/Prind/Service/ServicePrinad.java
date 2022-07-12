@@ -19,7 +19,7 @@ public class ServicePrinad {
     public List<Prinad> readAll() throws IOException {
         return repositoryPrinad.findALL();
     }
-    public Prinad readNumCheck(int snum) throws IOException {
+    public Prinad readSerNum(int snum) throws IOException {
         return repositoryPrinad.getBySerialNumber(snum);
     }
     public void updateCheck(Prinad prinad, int snum) throws IOException {
