@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+
 @AllArgsConstructor
 @Getter
 @Setter
@@ -13,6 +14,5 @@ public class Prinad {
     private int serialNum;
     private String color;
     private int thickness;
-    private int length;
     public Prinad(){}
 }
